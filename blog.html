@@ -9,9 +9,26 @@
 
 </head>
 <body class="bg-slate-200">
-    <section class="bg-white container mx-auto">
-        <h1 class="text-center text-5xl text-red-400">Some Important Q&A</h1>
-        
+    <section class="bg-white container mx-auto px-3 lg:px-8 text-justify">
+        <h1 class="text-center text-5xl text-red-400 underline font-bold italic pb-4 lg:pb-12">Some Important Q&A</h1>
+        <div class="">
+            <h4 class="font-semibold text-2xl my-3"> Q.1: Write down the difference between 'map()', 'forEach()', 'filter()' & 'find()'.</h4>
+            <p class="px-3 lg:px-8 pb-2"><span class="font-bold">'map()': </span>It applies a provided function to every element of the array and returns a new array with the results of that function applied to each element in the original array. The original array remains unchanged.</p>
+            <p class="px-3 lg:px-8 pb-2"><span class="font-bold">'forEach()': </span>It executes a provided function once for each element of the array. It does not return anything.</p>
+            <p class="px-3 lg:px-8 pb-2"><span class="font-bold">'filter()': </span>It creates a new array with all elements that pass the test implemented by the provided function. The original array remains unchanged.</p>
+            <p class="px-3 lg:px-8"><span class="font-bold">'find()': </span>It returns the value of the first element in the array that satisfies the provided testing function. If no values satisfy the function, it returns undefined.</p>
+        </div>
+        <div class="">
+            <h4 class="font-semibold text-2xl my-3"> Q.2: Write down the difference between 'Local Storage', 'Session Storage' & 'Cookie'.</h4>
+            <p class="px-3 lg:px-8 pb-2"><span class="font-bold">'Local Storage': </span>LocalStorage is a data storage type of web storage. This allows the JavaScript sites and apps to store and access the data without any expiration date.</p>
+            <p class="px-3 lg:px-8 pb-2"><span class="font-bold">'Session Storage': </span>Session storage allows you to store data in the browser depending on the system memory and the data stored in the browser until the browser is closed.</p>
+            <p class="px-3 lg:px-8 pb-2"><span class="font-bold">'Cookie': </span>A cookie is an amount of information that persists between a server-side and a client-side.</p>
+        </div>
+        <div class="">
+            <h4 class="font-semibold text-2xl my-3"> Q.3: What is Event Loop?.</h4>
+            <p class="px-3 lg:px-8 pb-2">The event loop is like a traffic cop for JavaScript. It directs the flow of asynchronous operations by constantly checking if there are any pending tasks and processing them when the execution stack is empty, allowing non-blocking I/O operations to be performed without freezing the UI or blocking other code from executing.</p>
+        </div>
+
     </section>    
 </body>
 </html>
